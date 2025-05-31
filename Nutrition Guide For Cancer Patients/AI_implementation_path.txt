@@ -1,0 +1,8 @@
+
+1) Replace MockData in Query with AI prompting
+-> i) Translate Prompt to risk factors for 
+-> ii) frf
+-> iii) frefe
+-> iv) ferfre
+
+2) 

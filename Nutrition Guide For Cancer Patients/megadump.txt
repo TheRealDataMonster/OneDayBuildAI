@@ -1,0 +1,25 @@
+
+// public/manifest.json
+
+// tailwind.config.js
+// postcss.config.js
+
+// src/index.js
+// src/index.css
+// src/App.js
+
+// src/components/CancerNutritionAI.js
+// src/components/Header.js
+// src/components/SearchSection.js
+// src/components/ResultsSection.js
+// src/components/Disclaimer.js
+// src/components/FeaturesSection.js
+
+// src/components/tabs/SafetyProfile.js
+// src/components/tabs/ResearchEvidence.js
+// src/components/tabs/ClinicalGuidelines.js
+// src/components/tabs/TreatmentInteractions.js
+
+// src/utils/helpers.js
+
+// src/data/mockData.js
