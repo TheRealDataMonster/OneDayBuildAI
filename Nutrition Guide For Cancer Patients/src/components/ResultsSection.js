@@ -1,14 +1,12 @@
 import React from 'react';
 import { Shield, BookOpen, Users, AlertTriangle } from 'lucide-react';
 import SafetyProfile from './tabs/SafetyProfile';
-import ResearchEvidence from './tabs/ResearchEvidence';
 import ClinicalGuidelines from './tabs/ClinicalGuidelines';
 import TreatmentInteractions from './tabs/TreatmentInteractions';
 import { getSafetyIcon } from '../utils/helpers';
 
 const tabs = [
   { id: 'safety', label: 'Safety Profile', icon: Shield },
-  { id: 'evidence', label: 'Research Evidence', icon: BookOpen },
   { id: 'guidelines', label: 'Clinical Guidelines', icon: Users },
   { id: 'interactions', label: 'Treatment Interactions', icon: AlertTriangle }
 ];
@@ -18,8 +16,6 @@ export default function ResultsSection({ results, activeTab, setActiveTab, expan
     switch(activeTab) {
       case 'safety':
         return <SafetyProfile results={results} />;
-      case 'evidence':
-        return <ResearchEvidence results={results} expandedSources={expandedSources} toggleSource={toggleSource} />;
       case 'guidelines':
         return <ClinicalGuidelines results={results} />;
       case 'interactions':

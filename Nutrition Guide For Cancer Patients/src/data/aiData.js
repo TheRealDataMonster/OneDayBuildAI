@@ -42,28 +42,6 @@ export const mockData = {
             "Vegetarian sushi options"
           ]
         },
-        evidence: [
-          {
-            title: "Foodborne Infections in Immunocompromised Cancer Patients",
-            authors: "Smith et al.",
-            journal: "Journal of Clinical Oncology",
-            year: 2022,
-            finding: "Study found 3.5x higher risk of severe foodborne infections in cancer patients consuming raw fish compared to cooked fish.",
-            peerReviewScore: 8.5,
-            reproducibilityScore: 7.8,
-            overallScore: 8.2
-          },
-          {
-            title: "Parasitic Infections in Cancer Treatment",
-            authors: "Johnson et al.",
-            journal: "Cancer Research",
-            year: 2021,
-            finding: "Identified increased susceptibility to parasitic infections during chemotherapy, particularly from raw seafood.",
-            peerReviewScore: 7.9,
-            reproducibilityScore: 7.2,
-            overallScore: 7.6
-          }
-        ],
         guidelines: [
           {
             organization: "American Cancer Society",
@@ -128,28 +106,6 @@ export const mockData = {
             "Use as part of a balanced diet"
           ]
         },
-        evidence: [
-          {
-            title: "Curcumin Interactions with Chemotherapy Agents",
-            authors: "Patel et al.",
-            journal: "Cancer Treatment Reviews",
-            year: 2023,
-            finding: "Systematic review found potential interactions between curcumin and certain chemotherapy drugs, requiring careful monitoring.",
-            peerReviewScore: 8.2,
-            reproducibilityScore: 7.5,
-            overallScore: 7.9
-          },
-          {
-            title: "Anti-inflammatory Effects in Cancer Patients",
-            authors: "Lee et al.",
-            journal: "Journal of Integrative Oncology",
-            year: 2022,
-            finding: "Small study showed potential benefits for reducing inflammation, but with significant individual variation in response.",
-            peerReviewScore: 6.8,
-            reproducibilityScore: 6.2,
-            overallScore: 6.5
-          }
-        ],
         guidelines: [
           {
             organization: "American Cancer Society",
@@ -183,7 +139,6 @@ export const mockData = {
         primaryConcerns: ["Insufficient data available"],
         safeAlternatives: ["Consult with healthcare provider"]
       },
-      evidence: [],
       guidelines: [],
       interactions: {
         withTreatments: []
